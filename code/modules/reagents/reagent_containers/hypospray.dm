@@ -115,7 +115,7 @@
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/empty
 	name = "autoinjector"
 	preloaded_reagents = list("inaprovaline" = 0)
-	#Yes I know this is stupid, but it's a lot easier than making the parent empty and fixing all the fallout from that for now.
+//Yes I know this is stupid, but it's a lot easier than making the parent empty and fixing all the fallout from that for now.'
 
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/antitoxin
 	name = "autoinjector (anti-toxin)"
