@@ -485,7 +485,7 @@
 	return
 
 /obj/item/weapon/storage/box/autoinjectors
-	name = "box of autoinjectors"
+	name = "box of autoinjectors (inaprovaline)"
 	desc = "Contains inaprovaline autoinjectors."
 	illustration = "syringe"
 
@@ -494,7 +494,7 @@
 		new /obj/item/weapon/reagent_containers/hypospray/autoinjector(src)
 
 /obj/item/weapon/storage/box/autoinjectors/empty
-	name = "box of injectors(empty)"
+	name = "box of autoinjectors"
 	desc = "Contains empty autoinjectors."
 	illustration = "syringe"
 
@@ -503,7 +503,7 @@
 		new /obj/item/weapon/reagent_containers/hypospray/autoinjector/empty(src)
 
 /obj/item/weapon/storage/box/autoinjectors/tricordrazine
-	name = "box of autoinjectors(tricordrazine)"
+	name = "box of autoinjectors (tricordrazine)"
 	desc = "Contains tricordrazine autoinjectors."
 	illustration = "syringe"
 
