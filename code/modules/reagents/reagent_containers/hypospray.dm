@@ -90,11 +90,11 @@
 	slot_flags = SLOT_EARS
 	icon_state = "autoinjector"
 	item_state = "autoinjector"
-	amount_per_transfer_from_this = 5
+	amount_per_transfer_from_this = 10
 	matter = list(MATERIAL_STEEL = 1, MATERIAL_PLASTIC = 1)
 	reagent_flags = REFILLABLE | DRAINABLE | AMOUNT_VISIBLE
-	volume = 5
-	preloaded_reagents = list("inaprovaline" = 5)
+	volume = 10
+	preloaded_reagents = list("inaprovaline" = 10)
 
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/on_reagent_change()
 	..()
@@ -114,15 +114,15 @@
 
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/antitoxin
 	name = "autoinjector (anti-toxin)"
-	preloaded_reagents = list("anti_toxin" = 5)
+	preloaded_reagents = list("anti_toxin" = 10)
 
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/tricordrazine
 	name = "autoinjector (tricordrazine)"
-	preloaded_reagents = list("tricordrazine" = 5)
+	preloaded_reagents = list("tricordrazine" = 10)
 
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/spaceacillin
 	name = "autoinjector (spaceacillin)"
-	preloaded_reagents = list("spaceacillin" = 5)
+	preloaded_reagents = list("spaceacillin" = 10)
 
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/hyperzine
 	name = "autoinjector (hyperzine)"
