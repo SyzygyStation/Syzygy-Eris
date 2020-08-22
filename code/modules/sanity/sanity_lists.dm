@@ -82,6 +82,7 @@
 		"Something inside your skull cracks. You feel no pain.",
 		"Curiosity is your greatest sin.",
 		"A burger would be good. Anything edible, really."
+		"You hear the distant, unmistakable sound of the drum roll from singer-songerwiter Phil Collins' original 1981 release of 'In The Air Tonight'. ...Who the hell is Phil Collins?"
 	)
 	return pick(sanity_quotes_40)
 
