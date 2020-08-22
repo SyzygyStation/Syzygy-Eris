@@ -120,7 +120,7 @@
 			"The walls are wrong. The walls are wrong!",
 			"You have a strange urge to go North.",
 			"Your teeth feel out of place. They should be in your stomach. ",
-			"shall be well. And nothing shall be well. And no manner of things shall be well.",
+			"Nothing shall be well. And nothing shall be well. And no manner of things shall be well.",
 			"You'll feel better when you sink your teeth into their backs. You're sure.",
 			"It feels like you're breathing inside your own lungs.",
 			"You hunger for something rich and red rich and red rich and red rich and red rich and r-",
