@@ -210,7 +210,7 @@
 			"You dont wan't to eat your fruits and vegetables anymore.",
 			"The engine has an aperture: STARE DIRECTLY AT IT",
 			"You have an out-of-parameter discussion with the ghost in the machine.",
-			"A roiling grey fog leaves your field of view, and devistates a gleaming crystal city.",
+			"A roiling grey fog leaves your field of view, and devastates a gleaming crystal city.",
 			"Who do you believe? Who stopped the fires from consuming the ship? Why?",
 			"Something in your blood gives birth.",
 			"You need to mourn the death of the Cochroaches.",
