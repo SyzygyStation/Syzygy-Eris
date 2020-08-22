@@ -81,7 +81,24 @@
 		"But they know, they always know. Accept this.",
 		"Something inside your skull cracks. You feel no pain.",
 		"Curiosity is your greatest sin.",
-		"A burger would be good. Anything edible, really."
+		"A burger would be good. Anything edible, really.",
+		"Look up.",
+		"You shouldn't of done that.",
+		"When was the last time you talked to your family?",
+		"Is that toast you smell?"
+		"When did the children stop waking up on this ship?"
+		"What actually transpires beneath the veil of an event horizon? Decent people shouldn't think too much about that."
+		"Men have killed from the beginning of days: Why should the future be different?"
+		"You need to meet the meteors, their impacts reveal words of wisdom."
+		"There is no joy in seeking, joy is only in the question."
+		"You carry a vessel, it is for a forgotten god that must be fed."
+		"So go now. Enter. Free yourself."
+		"Einstein would turn over in his grave. Not only does God play dice, the dice are loaded."
+		"It will happen, and it will happen in our lifetimes."
+		"The fungus dreams."
+		"Eternity lies ahead of you, and behind. Have you drunk your fill?"
+		"Your blood is precious and must never be seen by the greedy."
+		
 	)
 	return pick(sanity_quotes_40)
 
@@ -103,7 +120,7 @@
 			"The walls are wrong. The walls are wrong!",
 			"You have a strange urge to go North.",
 			"Your teeth feel out of place. They should be in your stomach. ",
-			"Nothing shall be well. And nothing shall be well. And no manner of things shall be well.",
+			"shall be well. And nothing shall be well. And no manner of things shall be well.",
 			"You'll feel better when you sink your teeth into their backs. You're sure.",
 			"It feels like you're breathing inside your own lungs.",
 			"You hunger for something rich and red rich and red rich and red rich and red rich and r-",
@@ -169,7 +186,41 @@
 			"The rules are written in blood. The very old blood of generations of idiots.",
 			"You are coming home.",
 			"The writings are here, behind your skull.",
-			"YOU HAVE NO CHOICE"
+			"YOU HAVE NO CHOICE",
+			"Was your blood always such a rich color?",
+			"SHIT, YOU LEFT THE OVEN ON.",
+			"GUNS ARE IMMORAL AND ARE USED TO DESTROY FAMILIES."
+			"The Cochroaches had familes, and you killed them all. their struggle is a noble one."
+			"ITS IN THE AIR: CANT YOU DRINK IT LIKE BOOZE?"
+			"You are teeth: you ache dearly and want to be freed."
+			"MEAT: BECOME IT, EAT IT, ROT INTO IT, WE ARE ALL MEAT."
+			"THE ALIENS: ARE THEY REAL? ARE THEY CARDBOARD CUTOUTS?"
+			"You need a mirror, you felt your face Metamorphisized into the shape of a mug."
+			"CRYOGENICS WAS NEVER INVENTED: THE SLEEPERS JOIN THE MEAT MINDS"
+			"Nanotrasen™ cares about you."
+			"Beware, you who seek first and final principles, for you are trampling the garden of an angry God and he awaits you just beyond the last door."
+			"HOLD A SCRAP OF PAPER IN THE DARKNESS AND LIGHT IT. WITNESS TRANSCENDENCE."
+			"A drop of blood lands on your foot."
+			"The salvage in the corridors whispers secrets."
+			"you remember the staccato of autocannon fire, the renting of so much metal and pitiful flesh."
+			"THE SUN, MEN AND WOMEN NEED TO BE SENT TO INVESTIGATE THE SUN AND ITS SECRETS"
+			"You are too late, your apathy will cause the deaths of trillions of souls."
+			"your flesh is seared to the bone, blasted to ash, and then thrown into the trash, where you belong."
+			"Your closest friend lied to you, and you let it happen. Weak."
+			"You dont wan't to eat your fruits and vegetables anymore."
+			"The engine has an aperture: STARE DIRECTLY AT IT"
+			"You have an out-of-parameter discussion with the ghost in the machine."
+			"A roiling grey fog leaves your field of view, and devistates a gleaming crystal city."
+			"Who do you believe? Who stopped the fires from consuming the ship? Why?"
+			"Something in your blood gives birth."
+			"You need to mourn the death of the Cochroaches."
+			"The spiders have a plan for this ship."
+			"The best way to kill the captain is with a dagger."
+			"In one dimension yopu find existence, in two you find life, but in three, you will find freedom."
+			"You are now an Anarcho-Fascist."
+			"You try to scream, but the worm in your throat eats your tongue."
+			
+			
 		)
 		for(var/i in 0 to 9)
 			sanity_quotes_20 += "[i] is the number."
