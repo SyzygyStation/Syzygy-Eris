@@ -55,7 +55,7 @@
 
 /tipsAndTricks/jobs/engies_suppermatter_three
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "Sometimes, you just can't save the crystal and have to ditch it."
+    tipText = "If all else fails, the supermatter can be ejected if it is the only way to save the ship."
 
 /tipsAndTricks/jobs/engies_lifekeeper
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
