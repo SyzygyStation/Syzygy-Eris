@@ -3,10 +3,6 @@
     var/list/jobs_list       //list of jobs to which tip can be shown
     textColor = "#22458d"
 
-/tipsAndTricks/jobs/captain_boss
-    jobs_list = list(/datum/job/captain)
-    tipText = "As a captain, you own this ship. You set the rules."
-
 /tipsAndTricks/jobs/ironhammer_theft
     jobs_list = list(/datum/job/ihc, /datum/job/gunserg, /datum/job/inspector, /datum/job/medspec, /datum/job/ihoper)
     tipText = "As an Aegis operative, you have broad access to chase criminals. This does not mean you can take anything you have access to. Taking things from other departments is theft!"
@@ -51,7 +47,7 @@
 
 /tipsAndTricks/jobs/engies_suppermatter_one
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "The Supreme Matter is a fickle mistress, and each Chief Engineer has their own unique setup. No setup is strictly wrong; a poor Engineer would be dead by now, surely..."
+    tipText = "The Supermatter is a fickle mistress, and each Chief Engineer has their own unique setup. No setup is strictly wrong; a poor Engineer would be dead by now, surely..."
 
 /tipsAndTricks/jobs/engies_suppermatter_two
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
@@ -94,7 +90,7 @@
     tipText = "Your PDA has integrated medical scanner."
 
 /tipsAndTricks/jobs/gas_scanner_pda
-    jobs_list = list(/datum/job/cmo, /datum/job/technomancer)
+    jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
     tipText = "Your PDA has an integrated gas sensor."
 
 /tipsAndTricks/jobs/carbonPills
@@ -135,7 +131,7 @@
 
 /tipsAndTricks/jobs/siliconShortcuts
     jobs_list = list(/datum/job/cyborg, /datum/job/ai)
-    tipText = "Many machinery has keyboard shortcuts. Try alt/shift/ctrl clicking on some. For example- airlocks, air/fire alarms, APC."
+    tipText = "Many machines have keyboard shortcuts. Try alt/shift/ctrl clicking on some. For example- airlocks, air/fire alarms, APC."
 
 /tipsAndTricks/jobs/siliconRemoteControlTwo
     jobs_list = list(/datum/job/cyborg, /datum/job/ai)
@@ -148,7 +144,6 @@
 /tipsAndTricks/jobs/pda_paper_scanner
     jobs_list = list(/datum/job/captain, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/ihc, /datum/job/hop, /datum/job/rd)
     tipText = "Your PDA has integrated paper scanner and printer."
-
 
 /tipsAndTricks/jobs/aiCanBeMoved
     jobs_list = list(/datum/job/ai)
