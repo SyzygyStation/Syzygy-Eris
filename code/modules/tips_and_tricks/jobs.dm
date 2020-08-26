@@ -25,7 +25,7 @@
 
 /tipsAndTricks/jobs/captain_value_your_ship
     jobs_list = list(/datum/job/captain)
-    tipText = "This ship is the culmination of your life's work. Don't abandon it because you scratched the paint."
+    tipText = "This ship is the culmination of your life's work. Don't abandon it because you scratched the paint." //Syzygy Edit
 
 /tipsAndTricks/jobs/captain_is_overseer
     jobs_list = list(/datum/job/captain)
@@ -47,7 +47,7 @@
 
 /tipsAndTricks/jobs/engies_suppermatter_one
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "The Supermatter is a fickle mistress, and each Chief Engineer has his or her own unique setup. No setup is strictly wrong; a poor Engineer would surely be dead by now..."
+    tipText = "The Supermatter is a fickle mistress, and each Chief Engineer has his or her own unique setup. No setup is strictly wrong; a poor Engineer would surely be dead by now..."   //Syzygy Edit
 
 /tipsAndTricks/jobs/engies_suppermatter_two
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
@@ -55,7 +55,7 @@
 
 /tipsAndTricks/jobs/engies_suppermatter_three
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
-    tipText = "If all else fails, the supermatter can be ejected if it is the only way to save the ship."
+    tipText = "If all else fails, the supermatter can be ejected if it is the only way to save the ship."   //Syzygy Edit
 
 /tipsAndTricks/jobs/engies_lifekeeper
     jobs_list = list(/datum/job/chief_engineer, /datum/job/technomancer)
@@ -131,7 +131,7 @@
 
 /tipsAndTricks/jobs/siliconShortcuts
     jobs_list = list(/datum/job/cyborg, /datum/job/ai)
-    tipText = "Many machines have keyboard shortcuts. Try alt/shift/ctrl clicking on some. For example- airlocks, air/fire alarms, APC."
+    tipText = "Many machines have keyboard shortcuts. Try alt/shift/ctrl clicking on some. For example- airlocks, air/fire alarms, APC."    //Syzygy Edit
 
 /tipsAndTricks/jobs/siliconRemoteControlTwo
     jobs_list = list(/datum/job/cyborg, /datum/job/ai)
