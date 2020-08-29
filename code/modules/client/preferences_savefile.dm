@@ -84,10 +84,7 @@
 	player_setup.save_character(S)
 	loaded_character = S
 
-	// Syzygy edit to fix an runtime casually caused by an Eclipse edit
-	if (client.mob && istype(client.mob, /mob/new_player))
-		var/mob/new_player/np = client.mob
-		np.new_player_panel_proc()			//Eclipse edit. Automatic refresh for current character.
+	try_refresh_lobby(client.mob)
 
 	return S
 
