@@ -430,8 +430,9 @@
 		new_character.create_soulcrypt()
 
 	//REEEEE GIMME A CRUCIFORM	-	Syzygy edit
-	if(new_character.client.prefs.get_option("Core implant"))	//checks if you have the cruciform selected in the augments menu of the character creator
-		var/obj/item/weapon/implant/core_implant/C = new /obj/item/weapon/implant/core_implant/cruciform(new_character) //spawns the cruciform inside you
+	var/datum/category_item/setup_option/core_implant/I = new_character.client.prefs.get_option("Core implant")	// gets the core implant selected in the character creator, which can either be the cruciform, or nothing.
+	if(I.implant_type)	//Checks if an implant is selected. If there is none selected, do nothing.
+		var/obj/item/weapon/implant/core_implant/C = new I.implant_type	//spawns the implant
 		C.install(new_character) //installs it inside you
 		C.activate() //turns it on
 		C.install_default_modules_by_job(new_character.mind.assigned_job)
