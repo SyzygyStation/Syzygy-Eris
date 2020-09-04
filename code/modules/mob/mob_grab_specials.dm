@@ -51,6 +51,8 @@
 		return
 
 	var/time_to_jointlock = max( 0, ( target.getarmor(target_zone, ARMOR_MELEE) - attacker.stats.getStat(STAT_ROB) ) )
+	attacker.visible_message(SPAN_WARNING("[attacker] starts putting [target]'s [organ.name] into a jointlock!"))
+	
 	if(!do_mob(attacker, target, time_to_jointlock))
 		to_chat(attacker, SPAN_WARNING("You must stand still to jointlock [target]!"))
 	else
