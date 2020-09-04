@@ -429,6 +429,15 @@
 	if(new_character.client && new_character.client.prefs.has_soulcrypt)
 		new_character.create_soulcrypt()
 
+	//REEEEE GIMME A CRUCIFORM	-	Syzygy edit
+	if(new_character.client.prefs.get_option("Core implant"))	//checks if you have the cruciform selected in the augments menu of the character creator
+		var/obj/item/weapon/implant/core_implant/C = new /obj/item/weapon/implant/core_implant/cruciform(new_character) //spawns the cruciform inside you
+		C.install(new_character) //installs it inside you
+		C.activate() //turns it on
+		C.install_default_modules_by_job(new_character.mind.assigned_job)
+		C.access.Add(new_character.mind.assigned_job.cruciform_access)
+	//Best to fix the missing cruciform issue instead of relying on this crutch
+
 	return new_character
 
 /mob/new_player/Move(NewLoc, Dir = 0, step_x = 0, step_y = 0, var/glide_size_override = 0)
