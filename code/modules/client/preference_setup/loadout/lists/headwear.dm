@@ -23,12 +23,12 @@
 /datum/gear/head/beret/bsec
 	display_name = "beret, navy (officer)"
 	path = /obj/item/clothing/head/beret/sec/navy/officer
-	allowed_roles = list("Aegis Operative","Aegis Commander","Gunnery Sergeant")
+	allowed_roles = list("Aegis Operative","Aegis Commander","Aegis Gunnery Sergeant")
 
 /datum/gear/head/beret/bsec_warden
 	display_name = "beret, navy (warden)"
 	path = /obj/item/clothing/head/beret/sec/navy/warden
-	allowed_roles = list("Aegis Commander","Gunnery Sergeant")
+	allowed_roles = list("Aegis Commander","Aegis Gunnery Sergeant")
 
 /datum/gear/head/beret/bsec_hos
 	display_name = "beret, navy (hos)"
