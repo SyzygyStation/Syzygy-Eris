@@ -4,12 +4,13 @@
 //											//
 //////////////////////////////////////////////
 
-/mob/living/simple_animal/hostile/scarybat	//modular override to nerf bats
-	maxHealth = 10
-	health = 10
+/mob/living/simple_animal/hostile/scarybat	//modular override to nerf bats a bit
+	melee_damage_lower = 5
+	melee_damage_upper = 8
 
-	melee_damage_lower = 3
-	melee_damage_upper = 5
+/mob/living/simple_animal/bullet_act(var/obj/item/projectile/Proj)
+	..()	//makes the regular bullet_act apply
+	adjustBruteLoss(Proj.agony)	//applies pain damage as brute damage to simplemobs
 
 // Makes it so that you can carry much more biomatter in a single stack so you don't need to send 5 lockers full of stacks to medical
 
