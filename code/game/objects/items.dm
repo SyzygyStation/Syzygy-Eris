@@ -51,6 +51,7 @@
 	var/contained_sprite = FALSE //TRUE if object icon and related mob overlays are all in one dmi
 
 	var/icon_override = null  //Used to override hardcoded clothing dmis in human clothing proc.
+	var/icon_override_female = null  //SYZYGY EDIT - gendered icon_overrides
 
 	//** These specify item/icon overrides for _slots_
 
@@ -511,7 +512,8 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 
 	for(var/A in hud_actions)
 		var/obj/item/action = A
-		action.update_icon()
+		if(action)
+			action.update_icon()
 
 /obj/item/proc/refresh_upgrades()
 	return

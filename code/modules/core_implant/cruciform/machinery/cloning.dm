@@ -243,6 +243,8 @@
 			occupant.UpdateAppearance()
 			occupant.sync_organ_dna()
 			occupant.flavor_text = R.host_flavor_text
+			occupant.stats = R.host_stats // Syzygy edit to copy stats from old mob to other
+			// occupant.stats = R.stats // commented out because it's a variable used by the cruciform, uncomment when we're back to using cruciforms
 
 		if(progress == CLONING_BODY || progress <= CLONING_BODY && progress > CLONING_BODY-10)
 			var/datum/effect/effect/system/spark_spread/s = new
@@ -416,7 +418,7 @@
 			if(sheets_amount_to_transphere)
 				var/total_transphere_from_stack = 0
 				var/i = 1
-				while(i <= sheets_amount_to_transphere)
+				while(i <= sheets_amount_to_transphere && i <= B.amount)
 					reagents.add_reagent("biomatter", B.biomatter_in_sheet)
 					total_transphere_from_stack += B.biomatter_in_sheet
 					i++

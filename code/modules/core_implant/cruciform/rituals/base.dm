@@ -19,7 +19,6 @@
 	phrase = "Et si ambulavero in medio umbrae mortis non timebo mala"
 	desc = "Short litany to relieve pain of the afflicted."
 	power = 50
-	chance = 33
 
 /datum/ritual/cruciform/base/relief/perform(mob/living/carbon/human/H, obj/item/weapon/implant/core_implant/C)
 	H.add_chemical_effect(CE_PAINKILLER, 10)
@@ -31,7 +30,6 @@
 	phrase = "Panem nostrum cotidianum da nobis hodie"
 	desc = "Litany of piligrims, helps better withstand hunger."
 	power = 50
-	chance = 33
 
 /datum/ritual/cruciform/base/soul_hunger/perform(mob/living/carbon/human/H, obj/item/weapon/implant/core_implant/C)
 	H.nutrition += 100
@@ -44,7 +42,6 @@
 	phrase = "Deus meus ut quid dereliquisti me"
 	desc = "Call for help, that other cruciform bearers can hear."
 	power = 50
-	chance = 60
 
 /datum/ritual/cruciform/base/entreaty/perform(mob/living/carbon/human/H, obj/item/weapon/implant/core_implant/C)
 	for(var/mob/living/carbon/human/target in disciples)
@@ -52,9 +49,10 @@
 			continue
 
 		var/obj/item/weapon/implant/core_implant/cruciform/CI = target.get_core_implant()
+		var/area/t = get_area(H)
 
 		if((istype(CI) && CI.get_module(CRUCIFORM_PRIEST)) || prob(50))
-			to_chat(target, SPAN_DANGER("[H], faithful cruciform follower, cries for salvation!"))
+			to_chat(target, SPAN_DANGER("[H], faithful cruciform follower, cries for salvation at [t.name]!"))
 	return TRUE
 
 /datum/ritual/cruciform/base/reveal
@@ -95,4 +93,21 @@
 		to_chat(H, SPAN_NOTICE("There is nothing there. You feel safe."))
 	return TRUE
 
+/datum/ritual/cruciform/base/sense_cruciform
+	name = "Cruciform sense"
+	phrase = "Et si medio umbrae"
+	desc = "Very short litany to identify NeoTheology followers. Targets individuals directly in front of caster or being grabbed by caster."
+	power = 20
 
+/datum/ritual/cruciform/base/sense_cruciform/perform(mob/living/carbon/human/H, obj/item/weapon/implant/core_implant/C)
+	var/mob/living/carbon/human/T = get_victim(H)
+	if(T)
+		var/obj/item/weapon/implant/core_implant/cruciform/CI = get_implant_from_victim(H, /obj/item/weapon/implant/core_implant/cruciform, FALSE)
+		if(CI)
+			to_chat(H, "<span class='rose'>[T] has a cruciform installed.</span>")
+		else
+			fail("There is no cruciform on [T]", H, C)
+	else
+		fail("No target. Make sure your target is either in front of you or grabbed by you.", H, C)
+		return FALSE
+	return TRUE
