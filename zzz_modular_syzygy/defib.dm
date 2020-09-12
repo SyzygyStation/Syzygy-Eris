@@ -328,8 +328,8 @@
 	var/busy = 0
 
 /obj/item/weapon/shockpaddles/attack_self(mob/user) //Toggle overcharge on and off.
-	if(!safety)
-		if (check_overchargecell()) //Requires a /linked variant to call base_unit.bcell
+	if(!safety) // Check if the safety has been disabled yet.
+		if (check_overchargecell()) // Check if cell is good enough.
 			if (!overcharge)
 				overcharge = TRUE
 				user.visible_message(
@@ -485,7 +485,6 @@
 	else if(heart.damage > 1)
 		blood_volume *= 0.8
 	return blood_volume < H.species.blood_volume * BLOOD_VOLUME_SURVIVE / 100
-//	return blood_volume < H.species.blood_volume*H.species.blood_level_fatal		//If you are reading this, this line shouldn't exist.
 
 /obj/item/weapon/shockpaddles/linked/check_overchargecell() // Check if the cell is large enough to allow overcharge.
 	return(base_unit.bcell.maxcharge >= overchargecost)
@@ -553,7 +552,7 @@
 							sparks.start()
 							H.apply_damage(80, BURN, BP_CHEST)
 							if (istype(L))
-								L.take_damage(5, 0) //user is the aggressor, H is the target
+								L.take_damage(5, 0)
 							overchargedrain()
 
 						else
@@ -860,12 +859,17 @@
 
 /obj/item/weapon/shockpaddles/standalone/checked_use(var/charge_amt)
 // Radiation commented out until Eris adds working radiation.
-//	SSradiation.radiate(src, charge_amt/12) //just a little bit of radiation. It's the price you pay for being powered by magic I guess
+/*
+	SSradiation.radiate(src, charge_amt/12) //just a little bit of radiation. It's the price you pay for being powered by magic I guess
+*/
 	return 1
 
 /obj/item/weapon/shockpaddles/standalone/Process()
 	if(fail_counter > 0)
-//		SSradiation.radiate(src, fail_counter--) // Radiation commented out until Eris adds working radiation.
+// Radiation commented out until Eris adds working radiation.
+/*
+		SSradiation.radiate(src, fail_counter--)
+*/
 	else
 		STOP_PROCESSING(SSobj, src)
 
@@ -885,7 +889,8 @@
 		START_PROCESSING(SSobj, src)
 	fail_counter = new_fail
 
-/* From the Bay port, this doesn't seem to have a sprite.
+//From the Bay port, this doesn't seem to have a sprite.
+/*
 /obj/item/weapon/shockpaddles/standalone/traitor
 	name = "defibrillator paddles"
 	desc = "A pair of unusual looking paddles powered by an experimental miniaturized reactor. It possesses both the ability to penetrate armor and to deliver powerful shocks."
@@ -897,7 +902,7 @@
 	chargetime = (1 SECONDS)
 */
 
-//FBP Defibs
+///// FBP Defibs /////
 /obj/item/device/defib_kit/jumper_kit
 	name = "jumper cable kit"
 	desc = "A device that delivers powerful shocks to detachable jumper cables that are capable of reviving full body prosthetics."
