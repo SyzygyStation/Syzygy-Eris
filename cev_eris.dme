@@ -2704,5 +2704,7 @@
 #include "zzz_modular_eclipse\radio_squelch\radios.dm"
 #include "zzz_modular_eclipse\sawnoff\sawnoff.dm"
 #include "zzz_modular_eclipse\storytellers\tyrant.dm"
+#include "zzz_modular_syzygy\clothing.dm"
 #include "zzz_modular_syzygy\hugbox.dm"
+#include "zzz_modular_syzygy\loadout.dm"
 // END_INCLUDE
