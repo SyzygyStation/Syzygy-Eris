@@ -260,7 +260,7 @@
 */
 
 /obj/item/device/defib_kit/compact
-	name = "compact defibrillator"
+	name = "Defibrillator Belt"
 	desc = "A belt-equipped defibrillator that can be rapidly deployed."
 	icon = 'zzz_modular_syzygy/icons/obj/ErisDefib.dmi'
 	icon_state = "defibcompact"
@@ -276,7 +276,7 @@
 
 
 /obj/item/device/defib_kit/compact/combat
-	name = "combat defibrillator"
+	name = "Combat Defibrillator Belt"
 	desc = "A belt-equipped blood-red defibrillator that can be rapidly deployed. Does not have the restrictions or safeties of conventional defibrillators and can revive through space suits."
 	paddles = /obj/item/weapon/shockpaddles/linked/combat
 
