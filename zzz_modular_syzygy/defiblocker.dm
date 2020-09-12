@@ -13,8 +13,7 @@
 	icon_state = initial(icon_state)
 	if(!open)
 		icon_state = "[icon_state]"
-		return
-	if(defib)
+	else if (defib)
 		icon_state = "[icon_state]-open"
 	else
 		icon_state = "[icon_state]-empty"
