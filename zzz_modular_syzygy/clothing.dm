@@ -27,10 +27,10 @@
 	blood_overlay_type = "coat"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 	armor = list(
-		melee = 20,
-		bullet = 10,
-		energy = 10,
-		bomb = 0,
+		melee = 30,
+		bullet = 35,
+		energy = 30,
+		bomb = 15,
 		bio = 0,
 		rad = 0
 	)
