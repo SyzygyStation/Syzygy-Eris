@@ -2716,4 +2716,5 @@
 #include "zzz_modular_syzygy\lockers.dm"
 #include "zzz_modular_syzygy\projectiles.dm"
 #include "zzz_modular_syzygy\storytellers\mentor.dm"
+#include "zzz_modular_syzygy\storytellers\overrides.dm"
 // END_INCLUDE
