@@ -2,12 +2,6 @@
 	Syzygy snowflake code for the Captain's stash. Specifically to change the contents of the stash to the voidsuit captain spacesuit instead of the generic crappy one.
 */
 /datum/stash/command
-	base_type = /datum/stash/command
-	loot_type = "Command"
-	directions = DIRECTION_LANDMARK
-	contents_list_base = list(/obj/item/clothing/under/rank/captain = 1,
-	/obj/item/clothing/gloves/captain = 1)
-	contents_list_extra = list()
 	contents_list_random = list(/obj/item/clothing/head/space/capspace = 70,
 	/obj/item/clothing/suit/space/void/captain = 70,
 	/obj/item/weapon/tank/jetpack/oxygen = 55,
@@ -30,4 +24,3 @@
 	/obj/item/weapon/rcd = 15,
 	/obj/item/weapon/melee/telebaton = 15,
 	/obj/item/clothing/suit/storage/greatcoat = 15)
-	weight = 0.2
