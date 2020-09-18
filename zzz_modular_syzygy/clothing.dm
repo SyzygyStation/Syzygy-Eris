@@ -37,7 +37,7 @@
 	siemens_coefficient = 0.8
 
 /obj/item/clothing/head/space/capspace
-	name = "captain's void helmet"
+	name = "captain's voidsuit helmet"
 	icon = 'zzz_modular_syzygy/icons/head_icons.dmi'
 	icon_state = "captains_voidhelmet"
 	item_state = "captains_voidhelmet"
