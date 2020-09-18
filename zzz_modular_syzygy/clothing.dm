@@ -36,7 +36,24 @@
 	)
 	siemens_coefficient = 0.8
 
-/obj/item/clothing/suit/space/captain
+/obj/item/clothing/suit/space/void/capspace
+	name = "captain's void helmet"
+	icon = 'zzz_modular_syzygy/icons/head_icons.dmi'
+	icon_state = "captains_voidhelmet"
+	item_state = "captains_voidhelmet"
+	icon_override = 'zzz_modular_syzygy/icons/mob/head.dmi'
+	desc = "A special helmet designed for work in a hazardous, low-pressure environment. Only for the most fashionable of military figureheads."
+	armor = list(
+		melee = 50,
+		bullet = 40,
+		energy = 40,
+		bomb = 50,
+		bio = 100,
+		rad = 50
+	)
+	siemens_coefficient = 0.7
+
+/obj/item/clothing/suit/space/void/captain
 	name = "captain's voidsuit"
 	desc = "A bulky, heavy-duty piece of exclusive corporate armor. YOU are in charge!"
 	icon = 'zzz_modular_syzygy/icons/suit_icons.dmi'
@@ -54,23 +71,11 @@
 		rad = 50
 	)
 	siemens_coefficient = 0.7
+	helmet = /obj/item/clothing/suit/space/void/capspace
+	boots = /obj/item/clothing/shoes/magboots
 
-/obj/item/clothing/head/space/capspace
-	name = "captain's void helmet"
-	icon = 'zzz_modular_syzygy/icons/head_icons.dmi'
-	icon_state = "captains_voidhelmet"
-	item_state = "captains_voidhelmet"
-	icon_override = 'zzz_modular_syzygy/icons/mob/head.dmi'
-	desc = "A special helmet designed for work in a hazardous, low-pressure environment. Only for the most fashionable of military figureheads."
-	armor = list(
-		melee = 50,
-		bullet = 40,
-		energy = 40,
-		bomb = 50,
-		bio = 100,
-		rad = 50
-	)
-	siemens_coefficient = 0.7
+/obj/item/clothing/suit/space/void/captain/equipped
+	tank = /obj/item/weapon/tank/jetpack/oxygen
 
 /obj/item/clothing/under/rank/captain
 	desc = "It's a blue jumpsuit with some gold markings denoting the rank of \"Captain\"."
