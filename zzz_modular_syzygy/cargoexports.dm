@@ -1,3 +1,5 @@
+//Syzygy snowflake code for cargo export scanner prices.
+
 /datum/export/gear/space/helmet/captain
 	cost = 1000
 	unit_name = "Captain's voidsuit helmet"
