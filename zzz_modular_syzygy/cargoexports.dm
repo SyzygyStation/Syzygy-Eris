@@ -3,7 +3,7 @@
 /datum/export/gear/space/helmet/captain
 	cost = 1000
 	unit_name = "Captain's voidsuit helmet"
-	export_types = list(/obj/item/clothing/head/space/void/capspace)
+	export_types = list(/obj/item/clothing/head/space/capspace)
 
 /datum/export/gear/space/suit/captain
 	cost = 1500
