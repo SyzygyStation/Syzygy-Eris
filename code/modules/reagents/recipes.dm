@@ -688,7 +688,7 @@
 	holder.del_reagent("napalm")
 	return
 
-
+/datum/chemical_reaction/chemsmoke
 	result = null
 	required_reagents = list("potassium" = 1, "sugar" = 1, "phosphorus" = 1)
 	result_amount = 0.4
