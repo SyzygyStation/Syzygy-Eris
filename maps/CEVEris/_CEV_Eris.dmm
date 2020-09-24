@@ -51065,9 +51065,6 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/neotheology/chapelritualroom)
 "ciU" = (
-/obj/machinery/firealarm{
-	pixel_y = 28
-	},
 /obj/structure/table/rack,
 /obj/item/device/last_shelter,
 /obj/machinery/door/blast/shutters/glass{
@@ -51099,9 +51096,9 @@
 /obj/structure/multiz/stairs/enter/bottom{
 	dir = 8
 	},
-/obj/machinery/button/remote/blast_door/id_card{
+/obj/machinery/button/remote/blast_door{
 	id = "last_shelter";
-	name = "Last Shelter id lock";
+	name = "Last shelter lock control";
 	pixel_y = 28;
 	req_access = list(74)
 	},
@@ -52222,10 +52219,10 @@
 /area/eris/medical/medbay)
 "clK" = (
 /obj/structure/railing{
-	tag = "icon-railing0 (WEST)";
-	icon_state = "railing0";
+	anchored = 1;
 	dir = 8;
-	anchored = 1
+	icon_state = "railing0";
+	tag = "icon-railing0 (WEST)"
 	},
 /obj/structure/railing,
 /turf/simulated/open,
@@ -52835,20 +52832,20 @@
 /area/eris/maintenance/section2deck3port)
 "cnf" = (
 /obj/structure/railing{
-	tag = "icon-railing0 (NORTH)";
-	icon_state = "railing0";
+	anchored = 1;
 	dir = 1;
-	anchored = 1
+	icon_state = "railing0";
+	tag = "icon-railing0 (NORTH)"
 	},
 /obj/structure/lattice,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/railing{
-	tag = "icon-railing0 (EAST)";
-	icon_state = "railing0";
+	anchored = 1;
 	dir = 4;
-	anchored = 1
+	icon_state = "railing0";
+	tag = "icon-railing0 (EAST)"
 	},
 /turf/simulated/open,
 /area/eris/quartermaster/storage)
@@ -56957,10 +56954,10 @@
 	dir = 4
 	},
 /obj/structure/railing{
-	tag = "icon-railing0 (WEST)";
-	icon_state = "railing0";
+	anchored = 1;
 	dir = 8;
-	anchored = 1
+	icon_state = "railing0";
+	tag = "icon-railing0 (WEST)"
 	},
 /turf/simulated/open,
 /area/eris/quartermaster/storage)
@@ -57786,10 +57783,10 @@
 "cyJ" = (
 /obj/structure/lattice,
 /obj/structure/railing{
-	tag = "icon-railing0 (NORTH)";
-	icon_state = "railing0";
+	anchored = 1;
 	dir = 1;
-	anchored = 1
+	icon_state = "railing0";
+	tag = "icon-railing0 (NORTH)"
 	},
 /turf/simulated/open,
 /area/eris/quartermaster/storage)
@@ -64099,8 +64096,8 @@
 	id = "complicator"
 	},
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 4
+	dir = 4;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/plating,
 /area/eris/engineering/engine_room)
@@ -71867,10 +71864,7 @@
 /area/eris/command/captain)
 "deI" = (
 /obj/structure/table/rack,
-/obj/item/weapon/tank/jetpack/oxygen,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/suit/space/captain,
-/obj/item/clothing/head/space/capspace,
+/obj/item/clothing/suit/space/void/captain/equipped,
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/command/captain)
 "deJ" = (
@@ -72390,6 +72384,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/bridgebar)
+"dfQ" = (
+/obj/machinery/firealarm{
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/neotheology/chapelritualroom)
 "dfR" = (
 /obj/machinery/camera/network/command{
 	dir = 1
@@ -108520,6 +108520,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/eris/engineering/construction)
+"gJE" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/defibcabinet{
+	pixel_x = 28
+	},
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/eris/medical/reception)
 "gPD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -108573,13 +108580,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep/cryo)
-"hUQ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/window_lwall_spawn/smartspawn,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck2starboard)
 "iaf" = (
 /obj/structure/multiz/stairs/enter{
 	dir = 1
@@ -164703,7 +164703,7 @@ ccU
 ccU
 ciY
 ccU
-bQy
+dfQ
 cBo
 bQE
 bQy
@@ -210130,7 +210130,7 @@ bSx
 bSV
 chM
 cYV
-crD
+gJE
 cWj
 dgo
 dAL
