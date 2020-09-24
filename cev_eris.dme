@@ -2713,7 +2713,6 @@
 #include "zzz_modular_syzygy\defiblocker.dm"
 #include "zzz_modular_syzygy\grenades.dm"
 #include "zzz_modular_syzygy\hugbox.dm"
-#include "zzz_modular_syzygy\living.dm"
 #include "zzz_modular_syzygy\loadout.dm"
 #include "zzz_modular_syzygy\lockers.dm"
 #include "zzz_modular_syzygy\pouches.dm"
