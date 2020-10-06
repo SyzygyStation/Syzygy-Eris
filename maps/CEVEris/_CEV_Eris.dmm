@@ -50675,7 +50675,11 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	dir = 4;
-	pixel_x = 11
+	icon_state = "pdoor0";
+	id = "SecondSectionLockdown";
+	layer = 2.6;
+	name = "Second Section Lockdown";
+	pixel_x = 0
 	},
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/hallway/main/section2)
@@ -77586,7 +77590,6 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/command/bridge)
 "dze" = (
-/obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -77606,6 +77609,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/command/bridge)
@@ -103926,6 +103932,18 @@
 	},
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/medical/surgery)
+"kug" = (
+/obj/machinery/door/blast/shutters/glass{
+	id = "BridgeArmoury";
+	name = "Armoury showcase"
+	},
+/obj/structure/table/rack,
+/obj/item/weapon/cell/small/high,
+/obj/item/weapon/cell/small/high,
+/obj/item/weapon/cell/small/high,
+/obj/item/weapon/cell/small/high,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/eris/command/bridge)
 "kEW" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -104134,6 +104152,16 @@
 /obj/machinery/atmospherics/unary/heat_exchanger,
 /turf/simulated/floor/tiled/steel/danger,
 /area/eris/engineering/engine_room)
+"mQf" = (
+/obj/machinery/door/blast/shutters/glass{
+	id = "BridgeArmoury";
+	name = "Armoury showcase"
+	},
+/obj/structure/table/rack,
+/obj/item/weapon/gun/energy/plasma/brigador,
+/obj/item/weapon/gun/energy/plasma/brigador,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/eris/command/bridge)
 "mQQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /turf/simulated/floor/hull{
@@ -104860,11 +104888,11 @@
 	opacity = 0
 	},
 /obj/machinery/door/blast/shutters{
-	density = 0;
+	density = 1;
 	dir = 2;
 	id = "rnddesk";
 	name = "Research Desk Shutters";
-	opacity = 0
+	opacity = 1
 	},
 /obj/machinery/door/window/westleft{
 	name = "Research Desk";
@@ -287753,8 +287781,8 @@ doD
 doD
 dyY
 dze
-dVw
-abF
+mQf
+aae
 abF
 abF
 abF
@@ -287955,8 +287983,8 @@ aaa
 dVw
 dyZ
 dzg
-dVw
-abF
+kug
+aae
 abF
 abF
 abF
@@ -288158,7 +288186,7 @@ dVw
 dVw
 dVw
 dVw
-abF
+aae
 abF
 abF
 abF
