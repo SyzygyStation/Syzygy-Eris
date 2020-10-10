@@ -26,3 +26,8 @@
 	name = "AI core"
 	desc = " I'm sorry, Dave."
 	mappath = 'maps/submaps/deepmaint_rooms/core/ai_core.dmm'
+
+/datum/map_template/deepmaint_template/big/A12 //syzygy edit and map
+	name = "A12"
+	desc = "One Star's All-Seeing Eye."
+	mappath = 'maps/submaps/deepmaint_rooms/core/A12.dmm'

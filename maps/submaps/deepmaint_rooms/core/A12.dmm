@@ -1,0 +1,806 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/roomba,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"ab" = (
+/obj/machinery/light,
+/obj/structure/table/onestar,
+/obj/item/weapon/storage/photo_album{
+	desc = "A photo album covered from front to back in newspaper clippings. There are distorted pictures of the Northern Light crashing and burning on some planet, dated to January 2320. Some of these articles have a publish date from years in the future. This shouldn't be possible."
+	},
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"aj" = (
+/obj/structure/salvageable/server_os,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"dW" = (
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"gy" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"he" = (
+/obj/structure/table/onestar,
+/obj/random/tool,
+/obj/random/tool,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"hH" = (
+/obj/structure/closet/onestar,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"iC" = (
+/obj/effect/window_lwall_spawn/smartspawnphoron,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"iL" = (
+/obj/random/mob/roomba,
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/deepmaint)
+"iW" = (
+/obj/machinery/door/airlock/vault,
+/turf/simulated/floor/tiled/white/monofloor,
+/area/deepmaint)
+"jy" = (
+/mob/living/simple_animal/hostile/roomba,
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/deepmaint)
+"ka" = (
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"mA" = (
+/mob/living/simple_animal/hostile/roomba,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"nE" = (
+/turf/simulated/wall/r_wall,
+/area/deepmaint)
+"oa" = (
+/obj/structure/table/onestar,
+/obj/random/tool/advanced/onestar/low_chance,
+/obj/random/tool/advanced/onestar/low_chance,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"pY" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/plating/under,
+/area/deepmaint)
+"qG" = (
+/obj/structure/table/onestar,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/random/tool/advanced/onestar,
+/obj/random/tool/advanced/onestar/low_chance,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"qJ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/deepmaint)
+"sa" = (
+/obj/structure/barricade,
+/turf/simulated/floor/tiled/white/monofloor,
+/area/deepmaint)
+"sj" = (
+/obj/effect/window_lwall_spawn/smartspawnphoron,
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/deepmaint)
+"th" = (
+/obj/machinery/door/airlock/maintenance_common,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"vg" = (
+/obj/machinery/porta_turret/One_star,
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/deepmaint)
+"vZ" = (
+/obj/structure/sign/faction/one_star_old{
+	desc = "One Star's all-seeing eye. This one is tattered and worn, the eye struggling to open. Your vision swims with clouds and pupils contracting as they stare at you from below.";
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/deepmaint)
+"wO" = (
+/turf/simulated/floor/bluegrid,
+/area/deepmaint)
+"wP" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/plating/under,
+/area/deepmaint)
+"xk" = (
+/obj/structure/closet/onestar/tier3/special,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"xx" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/bluegrid,
+/area/deepmaint)
+"AY" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"BL" = (
+/obj/structure/barricade,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monofloor,
+/area/deepmaint)
+"Cy" = (
+/obj/structure/sign/faction/one_star{
+	desc = "One Star's all-seeing eye. It's fully open and staring straight at you. This is where the skies are buried. You just need to find how to get further down.";
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"CV" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"DE" = (
+/obj/machinery/porta_turret/One_star,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"DT" = (
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/deepmaint)
+"Ex" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/wall/r_wall,
+/area/deepmaint)
+"Gj" = (
+/obj/structure/table/onestar,
+/obj/machinery/light,
+/obj/random/tool/advanced/onestar/low_chance,
+/obj/random/tool/advanced/onestar/low_chance,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"GY" = (
+/obj/machinery/porta_turret/One_star,
+/turf/simulated/floor/bluegrid,
+/area/deepmaint)
+"Jl" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"LI" = (
+/obj/structure/closet/onestar/tier2/normal,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"LW" = (
+/obj/effect/window_lwall_spawn/smartspawnphoron,
+/turf/simulated/floor/bluegrid,
+/area/deepmaint)
+"Nh" = (
+/turf/simulated/wall/untinted/onestar_reinforced,
+/area/deepmaint)
+"OX" = (
+/obj/structure/salvageable/computer_os,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"Ro" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"Rv" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/plating/under,
+/area/deepmaint)
+"So" = (
+/obj/item/weapon/mop,
+/obj/structure/mopbucket,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"SE" = (
+/obj/structure/closet/onestar/tier3/special,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"SL" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/plating/under,
+/area/deepmaint)
+"Th" = (
+/obj/structure/table/onestar,
+/obj/random/tool,
+/obj/random/tool/advanced/onestar/low_chance,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"TN" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/plating/under,
+/area/deepmaint)
+"Uf" = (
+/obj/structure/barricade,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monofloor,
+/area/deepmaint)
+"UC" = (
+/obj/structure/barricade,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/white/monofloor,
+/area/deepmaint)
+"UH" = (
+/obj/effect/window_lwall_spawn/smartspawnphoron,
+/turf/simulated/floor/tiled/white/monofloor,
+/area/deepmaint)
+"UO" = (
+/obj/structure/closet/onestar/tier2/medical,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"Vh" = (
+/obj/structure/table/onestar,
+/obj/random/tool/advanced/onestar,
+/obj/random/tool/advanced/onestar,
+/obj/random/tool/advanced/onestar,
+/obj/random/tool/advanced/onestar/low_chance,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"Vl" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"Vn" = (
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"Yj" = (
+/obj/effect/window_lwall_spawn/smartspawnphoron,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"Zf" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/plating/under,
+/area/deepmaint)
+"Zj" = (
+/obj/effect/window_lwall_spawn/smartspawnphoron,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+
+(1,1,1) = {"
+Ro
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Ro
+Vn
+Vn
+Vn
+Vn
+Vn
+Ro
+Ro
+Ro
+Ro
+Ro
+Vn
+"}
+(2,1,1) = {"
+Ro
+Zf
+AY
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+Vn
+"}
+(3,1,1) = {"
+Rv
+wP
+nE
+nE
+DT
+vg
+DT
+sj
+DT
+jy
+DT
+DT
+LW
+DT
+DT
+DE
+nE
+AY
+AY
+nE
+Vn
+"}
+(4,1,1) = {"
+pY
+nE
+nE
+nE
+nE
+LW
+Zj
+Nh
+DE
+dW
+dW
+DE
+Nh
+Nh
+DT
+dW
+nE
+hH
+AY
+nE
+Vn
+"}
+(5,1,1) = {"
+pY
+nE
+DT
+vg
+Zj
+wO
+wO
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+gy
+DT
+dW
+nE
+Vl
+AY
+th
+Vn
+"}
+(6,1,1) = {"
+pY
+nE
+DT
+DT
+Zj
+wO
+GY
+wO
+wO
+wO
+wO
+GY
+LW
+dW
+iL
+dW
+nE
+AY
+aa
+nE
+Vn
+"}
+(7,1,1) = {"
+SL
+nE
+jy
+iL
+Zj
+wO
+Nh
+Nh
+Nh
+Nh
+Nh
+wO
+LW
+dW
+DT
+dW
+nE
+AY
+AY
+nE
+Vn
+"}
+(8,1,1) = {"
+SL
+nE
+DT
+vg
+Zj
+GY
+Nh
+SE
+Vn
+ab
+Nh
+Nh
+LW
+dW
+DT
+dW
+nE
+So
+AY
+nE
+Vn
+"}
+(9,1,1) = {"
+SL
+nE
+iC
+Nh
+iC
+Nh
+Nh
+xk
+Vn
+oa
+Nh
+Nh
+Nh
+DE
+DT
+dW
+nE
+nE
+nE
+nE
+Vn
+"}
+(10,1,1) = {"
+SL
+nE
+DE
+Jl
+iC
+xx
+Nh
+UO
+Vn
+Vn
+Nh
+GY
+Yj
+dW
+DT
+dW
+UH
+UC
+BL
+nE
+Vn
+"}
+(11,1,1) = {"
+SL
+nE
+dW
+dW
+iC
+GY
+Nh
+Cy
+Vn
+Vn
+Nh
+wO
+Nh
+vZ
+DT
+DT
+UH
+sa
+sa
+iW
+Vn
+"}
+(12,1,1) = {"
+TN
+nE
+DE
+CV
+iC
+qJ
+Nh
+LI
+Vn
+Vn
+Nh
+GY
+Yj
+dW
+DT
+dW
+UH
+Uf
+Uf
+nE
+Vn
+"}
+(13,1,1) = {"
+ka
+nE
+iC
+Nh
+iC
+Nh
+Nh
+Vh
+Vn
+oa
+Nh
+Nh
+Nh
+DE
+DT
+dW
+nE
+nE
+nE
+Ex
+Ro
+"}
+(14,1,1) = {"
+ka
+nE
+DT
+vg
+Zj
+GY
+Nh
+qG
+Vn
+Gj
+Nh
+Nh
+LW
+dW
+DT
+dW
+nE
+he
+ka
+AY
+Ro
+"}
+(15,1,1) = {"
+ka
+nE
+iL
+DT
+Zj
+wO
+Nh
+Nh
+Nh
+Nh
+Nh
+wO
+LW
+dW
+iL
+dW
+nE
+Th
+AY
+ka
+Vn
+"}
+(16,1,1) = {"
+ka
+nE
+DT
+DT
+Zj
+wO
+GY
+wO
+wO
+wO
+wO
+GY
+LW
+dW
+DT
+dW
+nE
+OX
+ka
+ka
+Vn
+"}
+(17,1,1) = {"
+ka
+nE
+DT
+vg
+Zj
+wO
+wO
+Nh
+Nh
+Nh
+Nh
+Nh
+Nh
+gy
+DT
+dW
+nE
+aj
+ka
+ka
+Vn
+"}
+(18,1,1) = {"
+AY
+nE
+nE
+nE
+nE
+Zj
+Zj
+Nh
+DE
+mA
+dW
+DE
+Nh
+Nh
+DT
+dW
+nE
+ka
+AY
+ka
+Ro
+"}
+(19,1,1) = {"
+Ro
+AY
+nE
+nE
+DT
+vg
+DT
+DT
+DT
+DT
+DT
+DT
+sj
+DT
+DT
+DE
+nE
+ka
+ka
+ka
+Vn
+"}
+(20,1,1) = {"
+Ro
+AY
+AY
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+nE
+ka
+ka
+Vn
+"}
+(21,1,1) = {"
+Ro
+Ro
+Ro
+Ro
+Ro
+Vn
+Vn
+Vn
+Vn
+Ro
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+Vn
+"}
