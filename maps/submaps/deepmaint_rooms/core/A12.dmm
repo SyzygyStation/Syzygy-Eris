@@ -15,6 +15,26 @@
 "aj" = (
 /obj/structure/salvageable/server_os,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
+"aV" = (
+/obj/structure/sign/signnew/secure{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"cK" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"dg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/steel,
 /area/deepmaint)
 "dW" = (
@@ -53,6 +73,16 @@
 /mob/living/simple_animal/hostile/roomba,
 /turf/simulated/floor/tiled/steel/bar_light,
 /area/deepmaint)
+"jB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
+/area/deepmaint)
 "ka" = (
 /turf/simulated/floor/tiled/steel,
 /area/deepmaint)
@@ -67,6 +97,17 @@
 /obj/structure/table/onestar,
 /obj/random/tool/advanced/onestar/low_chance,
 /obj/random/tool/advanced/onestar/low_chance,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"ps" = (
+/mob/living/simple_animal/hostile/roomba,
+/turf/simulated/floor/bluegrid,
+/area/deepmaint)
+"pE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/deepmaint)
 "pY" = (
@@ -112,10 +153,15 @@
 /area/deepmaint)
 "vZ" = (
 /obj/structure/sign/faction/one_star_old{
-	desc = "One Star's all-seeing eye. This one is tattered and worn, the eye struggling to open. Your vision swims with clouds and pupils contracting as they stare at you from below.";
+	desc = "One Star's all-seeing eye. This one is tattered and worn, the eye struggling to open. Something about it seems achingly incomplete.";
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/steel/bar_light,
+/area/deepmaint)
+"wN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/random/mob/roaches/low_chance,
+/turf/simulated/floor/tiled/white,
 /area/deepmaint)
 "wO" = (
 /turf/simulated/floor/bluegrid,
@@ -127,6 +173,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
+	},
+/obj/structure/sign/atmos_air{
+	pixel_x = 32
 	},
 /turf/simulated/floor/plating/under,
 /area/deepmaint)
@@ -144,6 +193,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel,
 /area/deepmaint)
+"Bs" = (
+/obj/structure/sign/derelict1{
+	pixel_x = -32
+	},
+/obj/random/mob/roaches/low_chance,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
 "BL" = (
 /obj/structure/barricade,
 /obj/machinery/light{
@@ -153,7 +209,7 @@
 /area/deepmaint)
 "Cy" = (
 /obj/structure/sign/faction/one_star{
-	desc = "One Star's all-seeing eye. It's fully open and staring straight at you. This is where the skies are buried. You just need to find how to get further down.";
+	desc = "One Star's all-seeing eye. It's fully open and staring straight at you. There's faded writing on the bottom: 'WHERE SKIES ARE BURIED DEEP'.";
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
@@ -175,6 +231,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/wall/r_wall,
 /area/deepmaint)
+"EL" = (
+/obj/random/mob/roaches/low_chance,
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
+"Gg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/random/mob/roaches/low_chance,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
 "Gj" = (
 /obj/structure/table/onestar,
 /obj/machinery/light,
@@ -182,15 +247,31 @@
 /obj/random/tool/advanced/onestar/low_chance,
 /turf/simulated/floor/tiled/white,
 /area/deepmaint)
+"Gq" = (
+/obj/structure/sign/signnew/laserhazard{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/white,
+/area/deepmaint)
 "GY" = (
 /obj/machinery/porta_turret/One_star,
 /turf/simulated/floor/bluegrid,
+/area/deepmaint)
+"IP" = (
+/obj/random/mob/roaches/low_chance,
+/turf/simulated/floor/tiled/steel,
 /area/deepmaint)
 "Jl" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
+/area/deepmaint)
+"Jv" = (
+/obj/effect/floor_decal/industrial/danger{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/deepmaint)
 "LI" = (
 /obj/structure/closet/onestar/tier2/normal,
@@ -206,6 +287,7 @@
 "OX" = (
 /obj/structure/salvageable/computer_os,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/steel,
 /area/deepmaint)
 "Ro" = (
@@ -226,6 +308,9 @@
 /obj/item/weapon/mop,
 /obj/structure/mopbucket,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/danger{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/steel,
 /area/deepmaint)
 "SE" = (
@@ -302,18 +387,23 @@
 "Vn" = (
 /turf/simulated/floor/tiled/white,
 /area/deepmaint)
+"WT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/steel,
+/area/deepmaint)
 "Yj" = (
 /obj/effect/window_lwall_spawn/smartspawnphoron,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/deepmaint)
 "Zf" = (
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
+	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/deepmaint)
 "Zj" = (
@@ -327,18 +417,18 @@ Vn
 Vn
 Vn
 Vn
+EL
+Vn
+Vn
+Vn
+Ro
+Vn
 Vn
 Vn
 Vn
 Vn
 Ro
-Vn
-Vn
-Vn
-Vn
-Vn
-Ro
-Ro
+pE
 Ro
 Ro
 Ro
@@ -347,7 +437,7 @@ Vn
 (2,1,1) = {"
 Ro
 Zf
-AY
+jB
 nE
 nE
 nE
@@ -385,8 +475,8 @@ DT
 DT
 DE
 nE
-AY
-AY
+WT
+aa
 nE
 Vn
 "}
@@ -475,7 +565,7 @@ wO
 LW
 dW
 DT
-dW
+mA
 nE
 AY
 AY
@@ -494,7 +584,7 @@ SE
 Vn
 ab
 Nh
-Nh
+wO
 LW
 dW
 DT
@@ -517,7 +607,7 @@ xk
 Vn
 oa
 Nh
-Nh
+LW
 Nh
 DE
 DT
@@ -549,7 +639,7 @@ UH
 UC
 BL
 nE
-Vn
+Gq
 "}
 (11,1,1) = {"
 SL
@@ -566,13 +656,13 @@ Nh
 wO
 Nh
 vZ
-DT
+jy
 DT
 UH
 sa
 sa
 iW
-Vn
+Jv
 "}
 (12,1,1) = {"
 TN
@@ -595,7 +685,7 @@ UH
 Uf
 Uf
 nE
-Vn
+aV
 "}
 (13,1,1) = {"
 ka
@@ -609,7 +699,7 @@ Vh
 Vn
 oa
 Nh
-Nh
+LW
 Nh
 DE
 DT
@@ -632,7 +722,7 @@ qG
 Vn
 Gj
 Nh
-Nh
+wO
 LW
 dW
 DT
@@ -662,12 +752,12 @@ iL
 dW
 nE
 Th
-AY
+Gg
 ka
 Vn
 "}
 (16,1,1) = {"
-ka
+IP
 nE
 DT
 DT
@@ -695,7 +785,7 @@ nE
 DT
 vg
 Zj
-wO
+ps
 wO
 Nh
 Nh
@@ -709,7 +799,7 @@ dW
 nE
 aj
 ka
-ka
+IP
 Vn
 "}
 (18,1,1) = {"
@@ -761,7 +851,7 @@ Vn
 (20,1,1) = {"
 Ro
 AY
-AY
+dg
 nE
 nE
 nE
@@ -785,20 +875,20 @@ Vn
 Ro
 Ro
 Ro
-Ro
-Ro
-Vn
-Vn
-Vn
-Vn
+wN
 Ro
 Vn
 Vn
+Bs
+Vn
+Ro
 Vn
 Vn
 Vn
 Vn
 Vn
+Vn
+cK
 Vn
 Vn
 Vn
