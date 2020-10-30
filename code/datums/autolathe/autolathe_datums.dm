@@ -154,7 +154,7 @@
 
 //Returns a new instance of the item for this design
 //This is to allow additional initialization to be performed, including possibly additional contructor arguments.
-/datum/design/proc/Fabricate(newloc, mat_efficiency, fabricator)
+/datum/design/proc/Fabricate(newloc, mat_efficiency, fabricator, cheap_printer) //Syz edit
 	if(!build_path)
 		return
 
@@ -166,7 +166,8 @@
 			if(length(O.matter))
 				for(var/i in O.matter)
 					O.matter[i] = round(O.matter[i] * mat_efficiency, 0.01)
-
+	if(cheap_printer) //Syz edit
+		A.cheap_print() //Syz edit
 	return A
 
 /datum/design/autolathe
