@@ -54160,7 +54160,7 @@
 /turf/simulated/floor/tiled/steel/panels,
 /area/eris/engineering/post)
 "cwW" = (
-/obj/machinery/autolathe/loaded,
+/obj/machinery/autolathe/advanced/loaded,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/eris/quartermaster/storage)
 "cwZ" = (
@@ -79532,7 +79532,7 @@
 /obj/machinery/camera/network/engineering{
 	dir = 8
 	},
-/obj/machinery/autolathe/loaded,
+/obj/machinery/autolathe/advanced/loaded,
 /turf/simulated/floor/plating,
 /area/eris/engineering/construction)
 "dEj" = (
