@@ -4,7 +4,7 @@
 
 /obj/machinery/autolathe/advanced
 	name = "Advanced Autolathe"
-	desc = "It produces items using metal and glass. Unlike the normal this is an advanced verson with a micro laser for finner printing."
+	desc = "It produces items using metal and glass. Unlike the normal this is an advanced verson with a micro laser for faster printing."
 	cheap_printer = FALSE
 	circuit = /obj/item/weapon/electronics/circuitboard/autolathe_advanced
 
