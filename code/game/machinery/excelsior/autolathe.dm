@@ -10,6 +10,8 @@
 	storage_capacity = 240
 	unsuitable_materials = list()	// Can use biomatter too.
 
+	recycle_multiplier = 0.30	//SYZYGY EDIT - Innately higher recyling efficiency
+
 /obj/machinery/autolathe/excelsior/Initialize()
 	. = ..()
 	container = new /obj/item/weapon/reagent_containers/glass/beaker/large(src)

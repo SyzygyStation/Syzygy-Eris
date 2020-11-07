@@ -78,6 +78,8 @@
 	var/tmp/obj/effect/flicker_overlay/image_load
 	var/tmp/obj/effect/flicker_overlay/image_load_material
 
+	var/recycle_multiplier = 0.25	// SYZYGY EDIT - Autolathe nerfing
+
 /obj/machinery/autolathe/Initialize()
 	. = ..()
 	wires = new(src)
@@ -238,7 +240,7 @@
 
 	// Some item types are consumed by default
 	if(istype(I, /obj/item/stack) || istype(I, /obj/item/trash) || istype(I, /obj/item/weapon/material/shard))
-		eat(user, I)
+		eat(user, I, efficiency_penalty = FALSE)	//SYZYGY EDIT - Autolathe nerf
 		return
 
 	if(istype(I, /obj/item/weapon/reagent_containers/glass))
@@ -264,9 +266,14 @@
 	usr.set_machine(src)
 
 	if(href_list["insert"])
-		if(istype(usr.get_active_hand(), /obj/item/stack) || istype(usr.get_active_hand(), /obj/item/trash) || istype(usr.get_active_hand(), /obj/item/weapon/material/shard)) //SYZYGY Edit: Prevent new NanouUI function from bypassing scrap code for lathes.
-			eat(usr)
+		// SYZYGY EDIT START - Nerfs autolathe recycling
+		if(istype(usr.get_active_hand(), /obj/item/stack) || istype(usr.get_active_hand(), /obj/item/trash) || istype(usr.get_active_hand(), /obj/item/weapon/material/shard))
+			eat(usr, efficiency_penalty = FALSE)
 			return 1
+		else
+			eat(usr, efficiency_penalty = TRUE)
+			return 1
+		// SYZYGY EDIT END
 
 	if(href_list["disk"])
 		if(disk)
@@ -469,7 +476,7 @@
 		return
 	src.eject_disk(user)
 
-/obj/machinery/autolathe/proc/eat(mob/living/user, obj/item/eating)
+/obj/machinery/autolathe/proc/eat(mob/living/user, obj/item/eating, var/efficiency_penalty)	//SYZYGY - Autolathe nerfing
 	if(!eating && istype(user))
 		eating = user.get_active_hand()
 
@@ -534,6 +541,12 @@
 					filltype = 1
 				else
 					filltype = 2
+
+				// SYZYGY EDIT START - Autolathe nerfing
+				if(efficiency_penalty)
+					testing("Autolathe efficiency penalty applied!")
+					total_material *= recycle_multiplier
+				// SYZYGY EDIT END
 
 				total_material_gained[material] += total_material
 				total_used += total_material
@@ -840,6 +853,7 @@
 
 	speed = initial(speed) + man_rating + las_rating
 	mat_efficiency = max(0.2, 1.0 - (man_rating * 0.1))
+	recycle_multiplier = clamp(initial(recycle_multiplier)+(((man_rating))*0.15), 0, 1)	//SYZYGY Edit - Changes recycling to 25/40/55/70/85/100% effeciency based on the manipulator. Max reachable tier is 55% in normal play.
 
 
 
