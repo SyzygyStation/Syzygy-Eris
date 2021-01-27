@@ -29,7 +29,7 @@
 	var/forbidden_materials = list(MATERIAL_CARDBOARD,MATERIAL_WOOD,MATERIAL_BIOMATTER)
 
 	// base multiplier for scrap smelting, increased by better microlasers
-	var/scrap_multiplier = 0.25
+	var/scrap_multiplier = 0.30	//SYZYGY EDIT - Slight buff
 
 	//some UI stuff here
 	var/show_config = FALSE
@@ -122,6 +122,8 @@
 			if(istype(smelting,/obj/item/stack))
 				var/obj/item/stack/material/S = smelting
 				total_material *= S.get_amount()
+
+			total_material *= scrap_multiplier	//	Syzygy edit - Nerfs recycling
 
 			stored_material[material] += total_material
 
@@ -241,7 +243,7 @@
 		ml_rating += ML.rating
 		++ml_count
 
-	scrap_multiplier = initial(scrap_multiplier)+(((ml_rating/ml_count)-1)*0.15)//SYZYGY Edit - Boosts smelter to 25/40/55/70/85/100% effeciency based on the laser. Max reachable tier is 55% in normal play.
+	scrap_multiplier = clamp(initial(scrap_multiplier)+(((ml_rating/ml_count)-1)*0.15), 0, 1)	//SYZYGY Edit - Boosts smelter to 30/45/60/75/90/100% effeciency based on the laser. Max reachable tier is 60% in normal play.
 
 	var/mb_rating = 0
 	var/mb_count = 0
